@@ -1,0 +1,58 @@
+// .ancho_columna_titulos {
+//     width: 170px;
+// }
+
+/* styles.css */
+
+ion-content {
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+}
+
+.tabla-qr {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-qr th, .tabla-qr td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .tabla-qr th {
+    background-color: #f2f2f2;
+  }
+  
+  .ancho_columna_titulos {
+    width: 40%;
+  }
+  
+
+  ion-img{
+    width: 100px; 
+    height: 100px;
+    margin-left: 20px;
+}
+
+// Texto deslkzante
+.sliding-text-container {
+  overflow: hidden;
+}
+
+.sliding-text {
+  animation: slideRight 5s infinite linear;
+  // white-space: nowrap;
+  font-size: 28px;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
